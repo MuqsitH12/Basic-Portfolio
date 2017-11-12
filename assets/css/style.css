@@ -1,0 +1,31 @@
+head{
+	background-color: #4aaaa5;
+	margin:0;
+	padding:0;
+	color:#777777;
+}
+
+body{
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
+
+h1{
+	color:#ffffff;
+	background-color:#4aaaa5;
+	border-color: #cccccc;
+	margin:0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h2{
+	background-color:#ffffff;
+	color:#4aaaa5;
+	border-color: #dddddd;
+}
+
+.container {
+	width: 1024px;
+	margin: 0;
+}
