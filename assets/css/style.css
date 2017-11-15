@@ -5,9 +5,42 @@ head{
 	color:#777777;
 }
 
+header::after{
+	content: '';
+	display:table;
+	clear:both;
+}
+
+nav{ float: right;
+	clear: both;
+}
+
+nav ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+nav li{
+	display:inline-block;
+	margin-left: 30px;
+	padding-top: 35px;
+	position: relative;
+}
+
+nav a{
+	content:'';
+	display:block;
+	position: absolute;
+	width: 100%;
+}
+
 body{
-	background-color: #ffffff;
 	border-color: #dddddd;
+	line-height: 150%;
+	font-family: "Georgia","Times New Roman","Times","Serif";
+	font-size: 18px;
+	line-height: 150%;
 }
 
 h1{
@@ -15,6 +48,7 @@ h1{
 	background-color:#4aaaa5;
 	border-color: #cccccc;
 	margin:0;
+	float: left;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -23,9 +57,39 @@ h2{
 	background-color:#ffffff;
 	color:#4aaaa5;
 	border-color: #dddddd;
+	margin-left: 70px;
 }
 
 .container {
 	width: 1024px;
-	margin: 0;
+	margin: 0 auto;
+}
+
+#Main-Bio{
+	float: left;
+	margin-left: 100px;
+
+}
+
+#bio-image{
+	margin-left: 50px;
+}
+	
+
+#Main-Bio{
+	max-width: 650px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-color: #ffffff;
+}
+
+#Contact-Info{
+	width: 30%;
+	float: right;
+	margin-left: 30px;
+}
+
+#bio-image{
+	margin-right: 20px;
+	width: 200px;
+	height: 200px;
 }
