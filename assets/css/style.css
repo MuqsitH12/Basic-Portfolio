@@ -174,3 +174,33 @@ input[type=submit]:hover {
 	clear: both;
 	float: left;
 }
+
+#container2{
+	float: left;
+	margin-left: 100px;
+
+}
+
+#tablet-pic{
+	margin-left: 50px;
+}
+
+#beats-pic{
+	margin-left: 50px;
+}
+
+#soccer-pic{
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+#barber-pic{
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+#container2{
+	max-width: 650px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-color: #ffffff;
+}
